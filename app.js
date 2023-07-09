@@ -4,7 +4,7 @@ const port = 5000;
 
 // Define a basic route
 app.get('/', (req, res) => {
-  res.send('Hello, shopping!');
+  res.send('Hello, shopping!!');
 });
 
 // Start the server
