@@ -7,6 +7,11 @@ app.get('/', (req, res) => {
   res.send('Hello, this is my first deployment');
 });
 
+// Define a basic route
+app.get('/basic', (req, res) => {
+    res.send('Hello, this is my basic routes and deployment');
+  });
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
